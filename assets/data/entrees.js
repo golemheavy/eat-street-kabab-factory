@@ -1,48 +1,23 @@
 const entrees = [
 	{
-		"name": "Nihari",
-		"description": "Lean beef shank stew, slow-simmered in a sauce made of fresh ginger and other exquisite spices.",
-		"price": 12.99
-	},
-	{
-		"name": "Paya",
-		"description": "Goat stew, slow-cooked in an exquisite blend of spices.",
-		"price": 14.99
-	},
-	{
-		"name": "Haleem",
-		"description": "Shredded beef slow-cooked with lentils, onions and an exquisite blend of spices.",
+		"name": "Chicken 65",
+		"description": "Tender pieces of deep-fried chicken sauteed in spicy red chillies and exquisite spices.",
 		"price": 9.99
 	},
 	{
-		"name": "Karahi Gosht",
-		"description": "Tender bone-in goat pieces simmered in a gravy made of fresh tomatoes and Karahi masala.",
-		"price": 14.99 
-	},
-	{
-		"name": "Achari Gosht",
-		"description": "Tender bone-in goat pieces simmered in a gravy made of fresh tomatoes and achari (Indian pickle) masala.",
-		"price": 14.99
-	},
-	{
-		"name": "Daal Gosht",
-		"description": "Succulent pieces of goat and lentils stewed in an exquisite blend of fresh spices.",
-		"price": 14.99
-	},
-	{
-		"name": "Karahi Chicken",
-		"description": "Tender bone-in chicken pieces simmered in a gravy made of fresh tomatoes and Karahi masala (an exquisite spice blend).",
+		"name": "Chicken 65 -- Dry (Spicy!)",
+		"description": "Tender pieces of deep-fried chicken sauteed in spicy red chillies and exquisite spices.",
 		"price": 9.99
 	},
 	{
-		"name": "Achari Chicken",
-		"description": "Tender bone-in chicken pieces simmered in a gravy made of fresh tomatoes and achari (Indian/Pakistani pickle) masala.",
-		"price": 12.99
+		"name": "Prawn 65",
+		"description": "Description Here",
+		"price": 14.99
 	},
 	{
-		"name": "Boneless Chicken Karahi",
-		"description": "Tender boneless chicken pieces simmered in a gravy made of fresh tomatoes and Karahi masala (an exquisite spice blend).",
-		"price": 12.99
+		"name": "Chicken Tikka Masala",
+		"description": "Chunks of spice-marinated, tandoor-grilled chicken pieces simmered in a creamy sauce.",
+		"price": 11.99
 	},
 	{
 		"name": "Masala Shrimp",
@@ -50,13 +25,78 @@ const entrees = [
 		"price": 14.99
 	},
 	{
-		"name": "Masala Fish (Spicy!)",
-		"description": "Luscious pieces of fish cooked in a spicy sauce of fresh tomatoes and spices.",
-		"price": 14.99
+		"name": "Nihari",
+		"description": "Lean beef shank stew, slow-simmered in a sauce made of fresh ginger and other exquisite spices.",
+		"price": 11.99
 	},
 	{
-		"name": "Butter Chicken",
-		"description": "Boneless: Chunks of spice-marinated, tandoor-grilled chicken pieces simmered in a creamy sauce. (Chicken tikka masala). Bone in: Chunks of spice-marinated, tandoor-grilled chicken pieces simmered in a creamy sauce.",
+		"name": "Paya",
+		"description": "Goat stew, slow-cooked in an exquisite blend of spices.",
 		"price": 12.99
+	},
+	{
+		"name": "Haleem",
+		"description": "Shredded beef slow-cooked with lentils, onions and an exquisite blend of spices.",
+		"price": 9.99
+	},
+	{
+		"name": "Kadai Chicken",
+		"description": "Bone-in Chicken simmered in a spicy karahi sauce made of tomatoes and spices.",
+		"price": 9.99
+	},
+	{
+		"name": "Karahi Chicken Boneless",
+		"description": "Tender boneless chicken pieces simmered in a spicy karahi sauce made of tomatoes and spices.",
+		"price": 11.99
+	},
+	{
+		"name": "Chilli Chicken (Spicy!)",
+		"description": "Tender pieces of deep-fried chicken sauteed in spicy red chillies and exquisite spices.",
+		"price": 11.99
+	},
+	{
+		"name": "Palak Chicken",
+		"description": "Tender pieces of deep-fried chicken sauteed in spicy red chillies and exquisite spices.",
+		"price": 9.99
+	},
+	{
+		"name": "Kadai Gosht",
+		"description": "Tender bone-in goat pieces simmered in a gravy made of fresh tomatoes and Karahi masala.",
+		"price": 12.99 
+	},
+	{
+		"name": "Achar Gosht",
+		"description": "Tender bone-in goat pieces simmered in a gravy made of fresh tomatoes and achari (Indian pickle) masala.",
+		"price": 12.99
+	},
+	{
+		"name": "Daal Gosht",
+		"description": "Succulent pieces of goat and lentils stewed in an exquisite blend of fresh spices.",
+		"price": 12.99
+	},
+	{
+		"name": "Palak Gosht",
+		"description": "Tender pieces of goat sauteed in spicy red chillies and exquisite spices.",
+		"price": 12.99
+	},
+	{
+		"name": "Achar Chicken",
+		"description": "Tender bone-in chicken pieces simmered in a gravy made of fresh tomatoes and achari (Indian/Pakistani pickle) masala.",
+		"price": 9.99
+	},
+	{
+		"name": "Chicken Korma",
+		"description": "DESCRIPTION HERE.",
+		"price": 9.99
+	},
+	{
+		"name": "Chicken Shashlik",
+		"description": "DESCRIPTION HERE.",
+		"price": 11.99
+	},
+	{
+		"name": "Aloo Keema (beef)",
+		"description": "DESCRIPTION HERE.",
+		"price": 9.99
 	}
 ];

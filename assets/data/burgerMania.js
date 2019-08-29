@@ -1,13 +1,23 @@
 const burgerMania = [
 	{
+		"name": "Old School",
+		"description": "Old-fashioned hamburger with lettuce, tomato, onion, and mayo.",
+		"price": 5.99
+	},
+	{
 		"name": "Cheeseburger",
 		"description": "American cheese on a grilled beef patty topped with fresh lettuce, tomato, onion, ketchup, mayo and mustard.",
-		"price": 6.99
+		"price": 6.49
 	},
 	{
 		"name": "Hot Mess",
-		"description": "Succulent beef patty seasoned with salt & pepper, topped with cheddar cheese, mayo, mustard, a spicy sauce and a juicy-golden fried egg.",
+		"description": "Best burger in town! Beef patty seasoned with salt & pepper, topped with cheddar cheese, mayo, jalapenos, mustard, a spicy sauce and a juicy fried egg.",
 		"price": 6.99
+	},
+	{
+		"name": "Fish Burger",
+		"description": "Deep-fried Tilapia with lettuce, tomato, onion, and tartar sauce.",
+		"price": 7.99
 	},
 	{
 		"name": "Mushroom Swiss",
@@ -22,12 +32,12 @@ const burgerMania = [
 	{
 		"name": "Hawaiian Burger",
 		"description": "Succulent beef patty topped with pepper jack, onions, jalapenos and a juicy slice of grilled pineapple.",
-		"price": 6.99
+		"price": 7.99
 	},
 	{
-		"name": "Inferno",
+		"name": "Inferno (Spicy!)",
 		"description": "Succulent beef patty topped with habenero salsa, roasted poblanos, spicy chili mayo and cheddar cheese.",
-		"price": 6.99
+		"price": 7.99
 	},
 	{
 		"name": "Chicken Ranch Sandwich",

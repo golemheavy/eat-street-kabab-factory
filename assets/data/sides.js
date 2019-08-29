@@ -7,21 +7,21 @@ const sides = [
 	{
 		"name": "Chutney (small)",
 		"description": "Sauce made of yogurt, cumin, mint and other Indian spices (small).",
-		"price": 0.49
+		"price": 0.25
 	},
 	{
 		"name": "Chutney (large)",
 		"description": "Sauce made of yogurt, cumin, mint and other Indian spices (large).",
-		"price": 1.99
+		"price": 1.50
 	},
 	{
 		"name": "Plain Yogurt",
 		"description": "",
-		"price": 1.99
+		"price": 1.50
 	},
 	{
-		"name": "Side Salad (small)",
+		"name": "Salad",
 		"description": "",
-		"price": 2.99
+		"price": 1.50
 	}
 ];

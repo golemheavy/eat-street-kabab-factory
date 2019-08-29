@@ -20,13 +20,13 @@ const kababsAndGrill = [
 		"price": 11.99
 	},
 	{
-		"name": "Masala Chicken Boti (Spicy!)",
-		"description": "Succulent boneless chicken marinated in exquisite and tongue-searing spices and barbequed to perfection.",
+		"name": "Chicken Boti",
+		"description": "Barbecued boneless chicken marinated in exotic spices.",
 		"price": 11.99
 	},
 	{
-		"name": "Chicken Boti",
-		"description": "Barbecued boneless chicken marinated in exotic spices.",
+		"name": "Masala Chicken Boti (Spicy!)",
+		"description": "Succulent boneless chicken marinated in exquisite and tongue-searing spices and barbequed to perfection.",
 		"price": 11.99
 	},
 	{
@@ -45,6 +45,11 @@ const kababsAndGrill = [
 		"price": 14.99
 	},
 	{
+		"name": "Seekh Kabab (Lamb)",
+		"description": "Skewers of tender pieces of lamb marinated in fresh herbs and charcoal-grilled to perfection.",
+		"price": 14.99
+	},
+	{
 		"name": "Tangri Kabab (Spicy!)",
 		"description": "Chicken drumsticks marinated in an exquisite blend of tongue-searing spices and barbequed to perfection.",
 		"price": 12.99
@@ -52,17 +57,12 @@ const kababsAndGrill = [
 	{
 		"name": "Bihari Kabab (Beef or Chicken)",
 		"description": "Beef/boneless chicken marinated in fresh herbs and roasted to perfection and then thinly sliced. ",
-		"price": 12.99
+		"price": 11.99
 	},
 	{
 		"name": "Chapli Kabab (Beef or Chicken)",
 		"description": "Beef/chicken patty seasoned with an exquisite blend of Indian spices and grilled to perfection. ",
-		"price": 9.99
-	},
-	{
-		"name": "Chapli Kabab Goat",
-		"description": "Ground goat patty seasoned with an exquisite blend of Indian spices and grilled to perfection. ",
-		"price": 14.99
+		"price": 11.99
 	},
 	{
 		"name": "Charga (Chicken)",
@@ -70,19 +70,14 @@ const kababsAndGrill = [
 		"price": 21.99
 	},
 	{
-		"name": "Chusa (Cornish Hen)",
-		"description": "Whole cornish hen marinated in an exquisite blend of spices and grilled to perfection in a tandoor (oven).",
-		"price": 16.99
-	},
-	{
 		"name": "Lamb Chops",
 		"description": "Lamb chops marinated in a spicy blend and grilled to perfection.",
-		"price": 19.99
+		"price": 22.99
 	},
 	{
 		"name": "Afghani Malai Chicken Boti",
 		"description": "Barbequed slices of chicken breast seasoned with mild spices and cooked in a thick gravy.",
-		"price": 11.99
+		"price": 12.99
 	},
 	{
 		"name": "Tandoori Shrimp",
@@ -97,7 +92,7 @@ const kababsAndGrill = [
 	{
 		"name": "Fried Snapper",
 		"description": "Whole snapper fish marinated in an exquisite blend of spices and deep fried.",
-		"price": 28.99
+		"price": 24.99
 	},
 	{
 		"name": "Fried Pomfret",
@@ -112,6 +107,11 @@ const kababsAndGrill = [
 	{
 		"name": "Mixed Grill Family Platter",
 		"description": "A combination of chicken seekh kabab, chicken boti, chicken chapli, beef seekh kabab, beef Bihari kabab, and beef seekh kabab",
-		"price": 55.99
+		"price": 54.99
+	},
+	{
+		"name": "Jumbo Platter",
+		"description": "DESCIPTION HERE",
+		"price": 125.99
 	}
 ];

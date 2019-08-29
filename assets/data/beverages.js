@@ -2,7 +2,7 @@ const beverages = [
 	{
 		"name": "Can of soda",
 		"description": "",
-		"price": 1.89
+		"price": 1.69
 	},
 	{
 		"name": "Pakola",
@@ -12,12 +12,12 @@ const beverages = [
 	{
 		"name": "Iced Tea",
 		"description": "Cool, refreshing drink brewed from a blend of tea leaves.",
-		"price": 1.99
+		"price": 2.89
 	},
 	{
 		"name": "Lemonade",
 		"description": "Freshly squeezed refreshing lemon juice.",
-		"price": 2.89
+		"price": 1.99
 	},
 	{
 		"name": "Sweet Lassi",
@@ -46,6 +46,11 @@ const beverages = [
 	},
 	{
 		"name": "Bottle of Soda",
+		"description": "",
+		"price": 2.99
+	},
+	{
+		"name": "Bottle of Perrier",
 		"description": "",
 		"price": 2.99
 	}

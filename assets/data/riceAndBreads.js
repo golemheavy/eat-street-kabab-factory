@@ -7,7 +7,7 @@ const riceAndBreads = [
 	{
 		"name": "Vegetable Biryani",
 		"description": "Long-grained basmati rice layered with delicious vegetables cooked in a decadent, spicy gravy.",
-		"price": 10.99
+		"price": 8.99
 	},
 	{
 		"name": "Chicken Biryani",
@@ -17,17 +17,12 @@ const riceAndBreads = [
 	{
 		"name": "Boneless Chicken Biryani",
 		"description": "Long-grained basmati rice layered with marinated tender boneless chicken cooked in a spicy gravy.",
-		"price": 12.99
-	},
-	{
-		"name": "Hyderabadi Chicken Biryani",
-		"description": "Long-grained basmati rice layered with marinated bone-in chicken pieces cooked in a spicy gravy (the blend of spices from Hyderabad region in India).",
-		"price": 12.99
+		"price": 11.99
 	},
 	{
 		"name": "Goat Biryani",
 		"description": "Long-grained basmati rice layered with marinated succulent pieces of goat cooked in a spicy gravy.",
-		"price": 12.99
+		"price": 11.99
 	},
 	{
 		"name": "Shrimp Biryani",
@@ -37,31 +32,41 @@ const riceAndBreads = [
 	{
 		"name": "Paneer Biryani",
 		"description": "Long-grained basmati rice layered with succulent cubes of paneer (Indian cottage cheese) cooked in a decadent, spicy gravy.",
-		"price": 12.99
+		"price": 11.99
 	},
 	{
 		"name": "Onion Naan",
 		"description": "Tandoor-baked buttery flatbread stuffed with cumin, caramelized onion and cilantro.",
-		"price": 2.99
+		"price": 1.99
 	},
 	{
 		"name": "Garlic Naan",
 		"description": "Tandoor-baked buttery, flaky flatbread stuffed with fresh garlic and cilantro.",
-		"price": 3.99
+		"price": 2.99
 	},
 	{
 		"name": "Keema Naan",
 		"description": "Tandoor-baked buttery, flaky flatbread stuffed with spicy, seasoned minced goat.",
-		"price": 4.99
+		"price": 3.49
 	},
 	{
-		"name": "Paratha",
+		"name": "Puri Paratha",
 		"description": "Buttery, flaky, multilayered flatbread.",
-		"price": 2.49
+		"price": 5.99
+	},
+	{
+		"name": "Aloo Paratha",
+		"description": "Flatbread and potato.",
+		"price": 2.99
+	},
+	{
+		"name": "Puri (two)",
+		"description": "DESCRIPTION HERE.",
+		"price": 2.99
 	},
 	{
 		"name": "Naan",
 		"description": "Tandoor-baked flaky flatbread.",
-		"price": 1.79
+		"price": 1.49
 	}
 ];

@@ -2,30 +2,40 @@ const appetizers = [
 	{
 		"name": "Vegetable Samosa",
 		"description": "Deep-fried savory pastry stuffed with masala (Indian spice mix) potatoes and onions.",
-		"price": 1.99
+		"price": 1.49
 	},
 	{
 		"name": "Two Samosas (Chicken or Beef)",
 		"description": 'Deep-fried savory pastry stuffed with minced chicken/beef cooked with assorted Indian spices. ("keema samosa")',
-		"price": 3.99
+		"price": 2.99
 	},
 	{
-		"name": "Chicken 65",
-		"description": "Tender pieces of deep-fried chicken sauteed in spicy red chillies and exquisite spices.",
+		"name": "Pakora",
+		"description": "Vegetables rolled in a flour breading and deep-fried.",
+		"price": 5.99
+	},
+	{
+		"name": "Lettuce Wrap",
+		"description": "Something wrapped in lettuce.",
+		"price": 7.99
+	},
+	{
+		"name": "Mixed Platter",
+		"description": "A plate of mixed kababs and veggies.",
 		"price": 9.99
 	},
 	{
-		"name": "Paneer 65",
-		"description": "Tender cubes of deep-fried paneer (Indian cottage cheese) sauteed in spicy red chillies and exquisite spices.",
-		"price": 9.99
-	},
-	{
-		"name": "Mughlai Paratha",
+		"name": "Mughlai Paratha (Chicken or Beedf",
 		"description": "Crisp, flaky flatread stuffed with minced chicken seasoned with exquisite Indian spices.",
-		"price": 12.99
+		"price": 9.99
 	},
 	{
-		"name": "Mirchi Paratha",
+		"name": "Tandoori Shrimp Cocktail",
+		"description": "Tandoor-cooked shrimp in sauce.",
+		"price": 9.99
+	},
+	{
+		"name": "Mirchi Paratha - Spicy!",
 		"description": "Crisp, flaky flatbread stuffed with tongue-tickling mixture of green chillies and Indian spices.",
 		"price": 9.99
 	}
