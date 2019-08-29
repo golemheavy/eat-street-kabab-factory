@@ -1,0 +1,60 @@
+header {
+	background-color: #17416d;
+	/* background-color: black; */
+}
+
+main {
+	background-color: black;
+}
+
+.item-style {
+	text-align: left;
+	margin-left: 15px;
+	padding-right: 0;
+	color: #800000;
+}
+
+.price-style {
+	text-align:right;
+	margin-right: 15px;
+	padding-left: 0;
+}
+
+.spicy-item {
+	font-weight: bold;
+	color: red;
+}
+
+.menu-card {
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom:10px;
+}
+
+.menu-category-image {
+	width: 79%;
+	margin-bottom:.3rem;
+	border-radius: .5rem;
+}
+
+.desc-style {
+	
+	text-indent: none;
+	text-align: initial;
+	margin: 0 1rem 1.5rem 1rem;
+	font-style: oblique;
+	font-size:.93rem
+}
+
+.card-title {
+	margin: 1rem;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.card {
+	line-height: 1.4;
+	background-color: #faebd7;
+}
