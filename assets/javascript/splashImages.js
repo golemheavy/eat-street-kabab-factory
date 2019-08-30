@@ -1,9 +1,11 @@
 		
 		var bgImages = [
-			"background2-reduced.JPEG",
-			"background3-reduced.JPEG",
-			"background4-reduced.JPEG",
-			"background5-reduced.JPEG"
+			"banner_0.jpg",
+			"banner_1.jpg",
+			"banner_2.jpg",
+			"banner_3.jpg",
+			"menu_bg4.jpg",
+			"menu_bg5.jpg"
 		];
 		
 		var bgMobileImages = [
