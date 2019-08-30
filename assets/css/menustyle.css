@@ -1,10 +1,16 @@
 header {
-	background-color: #17416d;
+	background-color: black;
 	/* background-color: black; */
 }
 
+/*
 main {
-	background-color: black;
+	background-color: #800000;
+}
+*/
+
+.contact-panel {
+	background-color: #015700;
 }
 
 .item-style {
@@ -20,9 +26,18 @@ main {
 	padding-left: 0;
 }
 
+#footer {
+		background-color: black;
+}
+
 .spicy-item {
 	font-weight: bold;
 	color: red;
+}
+
+.card {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;	
 }
 
 .menu-card {
@@ -56,5 +71,5 @@ p {
 
 .card {
 	line-height: 1.4;
-	background-color: #faebd7;
+	background-color: #800000;
 }

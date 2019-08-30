@@ -22,7 +22,7 @@ body {
 }
 
 .card {
-	background-color: #0000006b;
+	background-color: #000000cc;
 	border: unset;
 	border-radius: unset;
 	color: white;
@@ -110,7 +110,7 @@ body > header > div > nav > a > img {
 }
 
 .slidercontainer {
-	background-color: #010601bf;
+	background-color: #000000cc;
 }
 
 .footer > .container {
