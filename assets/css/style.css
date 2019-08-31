@@ -37,7 +37,7 @@ body {
 }
 
 header {
-	background-color: #800000;
+	background-color: #e22526;
 }
 
 .item-style {
@@ -105,7 +105,7 @@ body > header > div > nav > a > img {
 }
 
 .footer {
-  background-color: #800000;
+  background-color: #e22526;
   text-align: center;
 }
 
@@ -121,7 +121,7 @@ body > header > div > nav > a > img {
 /* Footer */
 
 	#footer {
-		color: #7c8081;
+		color: #cab089;
 		text-align: center;
 	}
 
