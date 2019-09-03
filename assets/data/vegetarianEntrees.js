@@ -30,14 +30,16 @@ const vegetarianEntrees = [
 		"price": 9.99
 	},
 	{
-		"name": "Paneer 65 -- Dry (Spicy!)",
+		"name": "Paneer 65 -- Dry",
 		"description": "Tender cubes of deep-fried paneer (Indian cottage cheese) sauteed in spicy red chillies and exquisite spices.",
-		"price": 9.99
+		"price": 9.99,
+		"spicy": true
 	},
 	{
-		"name": "Kadai Paneer (Spicy!)",
+		"name": "Kadai Paneer",
 		"description": "Lucsious cubes of paneer (Indian cottage cheese) simmered in a spicy karahi sauce made of tomatoes and spices.",
-		"price": 11.99
+		"price": 11.99,
+		"spicy": true
 	},
 	{
 		"name": "Paneer Tikka Masala",

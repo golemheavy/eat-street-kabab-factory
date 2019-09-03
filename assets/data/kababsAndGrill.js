@@ -25,9 +25,10 @@ const kababsAndGrill = [
 		"price": 11.99
 	},
 	{
-		"name": "Masala Chicken Boti (Spicy!)",
+		"name": "Masala Chicken Boti",
 		"description": "Succulent boneless chicken marinated in exquisite and tongue-searing spices and barbequed to perfection.",
-		"price": 11.99
+		"price": 11.99,
+		"spicy": true
 	},
 	{
 		"name": "Seekh Kabab (Chicken)",
@@ -50,9 +51,10 @@ const kababsAndGrill = [
 		"price": 14.99
 	},
 	{
-		"name": "Tangri Kabab (Spicy!)",
+		"name": "Tangri Kabab",
 		"description": "Chicken drumsticks marinated in an exquisite blend of tongue-searing spices and barbequed to perfection.",
-		"price": 12.99
+		"price": 12.99,
+		"spicy": true
 	},
 	{
 		"name": "Bihari Kabab (Beef or Chicken)",

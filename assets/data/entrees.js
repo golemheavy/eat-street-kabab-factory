@@ -5,9 +5,10 @@ const entrees = [
 		"price": 9.99
 	},
 	{
-		"name": "Chicken 65 -- Dry (Spicy!)",
+		"name": "Chicken 65 -- Dry",
 		"description": "Tender pieces of deep-fried chicken sauteed in spicy red chillies and exquisite spices.",
-		"price": 9.99
+		"price": 9.99,
+		"spicy": true
 	},
 	{
 		"name": "Prawn 65",
@@ -50,9 +51,10 @@ const entrees = [
 		"price": 11.99
 	},
 	{
-		"name": "Chilli Chicken (Spicy!)",
+		"name": "Chilli Chicken",
 		"description": "Tender pieces of deep-fried chicken sauteed in spicy red chillies and exquisite spices.",
-		"price": 11.99
+		"price": 11.99,
+		"spicy": true
 	},
 	{
 		"name": "Palak Chicken",

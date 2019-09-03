@@ -35,9 +35,10 @@ const burgerMania = [
 		"price": 7.99
 	},
 	{
-		"name": "Inferno (Spicy!)",
+		"name": "Inferno",
 		"description": "Succulent beef patty topped with habenero salsa, roasted poblanos, spicy chili mayo and cheddar cheese.",
-		"price": 7.99
+		"price": 7.99,
+		"spicy": true
 	},
 	{
 		"name": "Chicken Ranch Sandwich",

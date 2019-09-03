@@ -35,8 +35,9 @@ const appetizers = [
 		"price": 9.99
 	},
 	{
-		"name": "Mirchi Paratha - Spicy!",
+		"name": "Mirchi Paratha",
 		"description": "Crisp, flaky flatbread stuffed with tongue-tickling mixture of green chillies and Indian spices.",
-		"price": 9.99
+		"price": 9.99,
+		"spicy": true
 	}
 ];
