@@ -25,8 +25,8 @@ const appetizers = [
 		"price": 9.99
 	},
 	{
-		"name": "Mughlai Paratha (Chicken or Beedf",
-		"description": "Crisp, flaky flatread stuffed with minced chicken seasoned with exquisite Indian spices.",
+		"name": "Mughlai Paratha (Chicken or Beed)",
+		"description": "Crisp, flaky flatbread stuffed with minced chicken seasoned with exquisite Indian spices.",
 		"price": 9.99
 	},
 	{
