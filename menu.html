@@ -27,6 +27,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="./assets/css/style.css">
 		<link rel="stylesheet" href="./assets/css/menustyle.css">
+		<link rel="stylesheet" href="./assets/css/modal.css">
 
 		<title>Our Menu</title>
 	</head>
@@ -89,7 +90,7 @@
 				<div class="col-auto maincol">
 					<div class="card">
 						<h1 class="mt-5 text-center hidden-sm hidden-xs">Our Menu</h1>
-						<h5 class="card-title" id="flavor-text">To place an order, call us at: (469)&nbsp;777&#8209;3957</h5>
+						<h5 class="card-title" id="flavor-text">To place an order, call us at: (469)&nbsp;900&#8209;8137</h5>
 						<img class="halal-seal" src="./assets/images/zabiha-halal-1-logo-png-transparent-scaled.png" alt="halal seal" />
 						<p class="card-text" id="flavor-text"><em>We Serve Halal Meat</em></p>
 						<!-- h5 class="card-title" id="flavor-text"><a href="./assets/pdfmenu/STAR KABABS_Menu_051619.pdf">PDF Menu</a></h5 -->
@@ -115,23 +116,25 @@
 								</div>
 								<div style="text-align:center">
 									<p>
-										<span style="color:white;"><strong>(469) 777‑3957</strong></span>
+										<span style="color:white;"><strong>(469) 900-8137</strong></span>
 									</p>
 									<p style="text-align:right;margin-bottom:0;">
-										<span>11851 FM 423, Ste. #200<br />Little Elm, TX 75068</span>
+										<span>2640 Old Denton rd.<br />Carrollton, TX 75007</span>
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6 col-xs-12" style="padding-left: 0;padding-right: 0;padding-top:1rem;padding-bottom:1rem;margin:auto;">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.7859215807744!2d-96.88852554911824!3d33.19348658075427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c39afa18d5a37%3A0xd5b8508be1a81c8d!2s11851+FM423%2C+Little+Elm%2C+TX+75068!5e0!3m2!1sen!2sus!4v1561526567295!5m2!1sen!2sus" width="250" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7513.0182415678255!2d-96.9099872478967!3d32.98612872170779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c25e4f08ddae3%3A0x5ab3a6c68ed9b4e2!2s2640%20Old%20Denton%20Rd%2C%20Carrollton%2C%20TX%2075007!5e0!3m2!1sen!2sus!4v1567546922567!5m2!1sen!2sus" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					</div>
 				</div>
 			</div>
 			<div class="container py-3">
 				<ul class="copyright">
-					<li><a href="https://www.facebook.com/Star-Kabab-394260438059145/" target="_BLANK" class="icon circle fa-facebook"><span class="label">Facebook</span></a><a href="https://www.instagram.com/starkababgrill/" target="_BLANK" class="icon circle fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://www.facebook.com/EatStKababFactory/" target="_BLANK" class="icon circle fa-facebook"><span class="label">Facebook</span></a>
+					<!-- a href="https://www.instagram.com/starkababgrill/" target="_BLANK" class="icon circle fa-instagram"><span class="label">Instagram</span></a -->
+					</li>
 					<li>&copy; Eat St. Kabab Factory</li>
 					<li>Design By <a href="#" class="nopad">GridTop Web Services</a></li><li>All rights reserved.</li>
 				</ul>
@@ -143,6 +146,8 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script>
+		
+		let bodyElement = document.getElementsByTagName("body")[0];
 		
 		const columns = [
 		[{
@@ -225,20 +230,20 @@
 			
 		for (let x in colArr) {
 			
-			
 			let nodeVar = document.getElementById("column-"+ind);		
 			let z = document.createElement('div');
-			z.innerHTML = `<div class="card menu-card" id="${colArr[x].name}">
+			let nodeId = colArr[x].name.replace(/\s|\&|\'/g, '');
+			z.innerHTML = `<div class="card menu-card" id=${nodeId}>
 								<div class="row">
 									<div class="col">
-										<a data-toggle="collapse" href="#collapseTarget${colArr[x].name.replace(/\s|\&|\'/g, '')}" role="button" aria-expanded="false" aria-controls="collapseTarget${colArr[x].name.replace(/\s|\&|\'/g, '')}">
+										<a href="#${nodeId}" role="button">
 											<h5 class="card-title">${colArr[x].name}</h5>
 										</a>
 									</div>
 								</div>
 							</div>`;
 			nodeVar.appendChild(z);
-			let imageNode = document.getElementById(colArr[x].name);
+			let imageNode = document.getElementById(nodeId);
 			
 			if (typeof colArr[x].image !== "undefined") {
 				let image = document.createElement('div');
@@ -248,39 +253,124 @@
 				imageNode.appendChild(image);
 			}
 			
-			let sectionNode = document.getElementById(colArr[x].name);
-			let v = document.createElement('div');
-			v.classList.add("collapse");
-			//v.setAttribute("id","collapseTarget");
-			for (let y in colArr[x].items) {
 			//let sectionNode = document.getElementById(colArr[x].name);
-			let item = document.createElement('div');
-			let spicytag = "";
-			if (colArr[x].items[y].spicy === true) spicytag = '<span style="color:red;">(Spicy!)</span>';
-			item.innerHTML = `	<div class="row">
-									<div class="col-8 col-auto item-style">
-										<p>${colArr[x].items[y].name} ${spicytag}</p>
+			let modalWindow = document.createElement('div');
+			modalWindow.classList.add("modal");
+			modalWindow.setAttribute("id","modal-" + colArr[x].name.replace(/\s|\&|\'/g, ''));
+			
+			let modalContent = document.createElement('div');
+			modalContent.classList.add("modal-content");
+			modalContent.innerHTML = `<div class="modal-header">
+										<span class="close">&times;</span>
+										<h2>${colArr[x].name}</h2>
 									</div>
-									<div class="col col-mr-auto price-style">
-										<p>${colArr[x].items[y].price}</p>
+									<div class="modal-body">`;
+			
+			for (let y in colArr[x].items) {
+				let item = document.createElement('div');
+				let spicytag = "";
+				if (colArr[x].items[y].spicy === true) spicytag = '<span style="color:red;">(Spicy!)</span>';
+				item.innerHTML = `	<div class="row">
+										<div class="col-8 col-auto item-style">
+											<p>${colArr[x].items[y].name} ${spicytag}</p>
+										</div>
+										<div class="col col-mr-auto price-style">
+											<p>${colArr[x].items[y].price}</p>
+										</div>
 									</div>
-								</div>
-								<div class="row">
-									<div class="col desc-style">
-										<p class="no-indent">${colArr[x].items[y].description}</p>
-									</div>
-								</div>
-			`;
-			v.appendChild(item);
+									<div class="row">
+										<div class="col desc-style">
+											<p class="no-indent">${colArr[x].items[y].description}</p>
+										</div>
+									</div>`;
+								
+				modalContent.appendChild(item);
 			}
-			sectionNode.appendChild(v).setAttribute("id","collapseTarget" + colArr[x].name.replace(/\s|\&|\'/g, '')); // .classList.add("collapse");
+			
+			modalWindow.appendChild(modalContent);
+			document.getElementById(nodeId).appendChild(modalWindow); //; .setAttribute("id","collapseTarget" + colArr[x].name.replace(/\s|\&|\'/g, '')); // .classList.add("collapse");
+			
+			var btn = document.getElementById(nodeId);
+			
+			btn.onclick = function() {
+				if (modalWindow == currentModal || currentModal === null) toggleModal(modalWindow);
+				else if (currentModal && modalWindow) {
+					toggleModal(currentModal);
+					toggleModal(modalWindow);
+				}
+			}
 		}
 	}
 	
 	columns.map((x, ind) => {
 		buildColumn(x,ind);
 	});
-
+	
+	let currentModal;  // this global variable will story the currently activated modal, if any. There shouldn't be more than a single one active at a given time.
+	
+	// when arriving from the nav menu, toggle correct modal for indicated location fragment hash
+	if (location.hash) hashHandler();
+	
+	function toggleModal(modalNode) {
+	
+	// if currentModal exists and is a modal, and if modalNode exists and is a modal, and if they aren't the same node, toggle currentModal off, toggle modalNode on, and set currentModal =
+	// if they are the same node then this should only happen if the modal is currently activated, just toggle it off and set current modal equal to null modalNode.
+	// if modalNode exists and is a modal but currentModal doesn't exist, this should only happen if the modal node is not active. activate modal node and set current node equal to it.
+		
+		if (modalNode && modalNode.id.startsWith("modal-")) {
+			if (currentModal && currentModal.id.startsWith("modal-")) {
+				if (modalNode === currentModal && modalNode.style && modalNode.style.display == "block") {
+					modalNode.style.display = "none";
+					bodyElement.style.overflow="auto";
+					currentModal = null;
+				} else { //currentNode and Modal Node aren't equal
+					modalNode.style.display = "block";
+					bodyElement.style.overflow="hidden";
+					currentModal = modalNode;
+				}
+			} else { // this should only happen when there are no current modals, so activate the modal node 
+				modalNode.style.display = "block";
+				bodyElement.style.overflow="hidden";
+				currentModal = modalNode;
+			}
+			
+			/*
+				if (modalNode.style && modalNode.style.display !== "block") {
+						modalNode.style.display = "block";
+						bodyElement.style.overflow="hidden";
+						currentModal = modalNode;
+				} else if (modalNode.style && modalNode.style.display == "block") {
+						modalNode.style.display = "none";
+						bodyElement.style.overflow="auto";
+						currentModal = null;
+				} 
+			*/
+		}
+	}
+			
+	function hashHandler() {
+		let locationHash = location.hash.slice(1).split("%20").join('').split('&').join('').split("'").join('');
+		let toggleNode = document.getElementById("modal-" + locationHash);
+		if (toggleNode !== currentModal) {
+			if (currentModal !== null) toggleModal(currentModal); // if a modal is currently active, turn it off before turning on another.
+			toggleModal(toggleNode);
+		}
+	}
+		
+	window.addEventListener('hashchange', hashHandler, false); 
+	
+/*
+	window.onclick = function(event) {  // this function is not needed right now but may be useful later to change the close modal functionality
+										// currently, there is a listener being built for every modal window. However, I could remove those listeners and just use this one single listener 
+										// for all of them
+				
+		if (event.target.id.startsWith("modal-") && event.target.style.display == "block") {
+			console.log("toggling:\t" + event.target);
+			toggleModal(event.target);
+		}
+	}
+*/
+	
 		</script>
 	</body>
 </html>

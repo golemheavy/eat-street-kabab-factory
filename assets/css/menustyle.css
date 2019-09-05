@@ -3,6 +3,14 @@ header {
 	/* background-color: black; */
 }
 
+a:hover {
+	color: #02ff00
+}
+
+a {
+	color: #015700
+}
+
 /*
 main {
 	background-color: #800000;
@@ -17,7 +25,7 @@ main {
 	text-align: left;
 	margin-left: 15px;
 	padding-right: 0;
-	padding-left: 15px;;
+	padding-left: 15px;
 	color: #800000;
 }
 
@@ -39,6 +47,7 @@ main {
 .card {
 	border: 1px solid rgba(0,0,0,.125);
 	border-radius: .25rem;	
+	color: unset;
 }
 
 .menu-card {
