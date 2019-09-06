@@ -1,22 +1,22 @@
 const kababsAndGrill = [
 	{
 		"name": "Chicken Tikka (Leg)",
-		"description": "Chicken leg quarter marinated in an exquisite blend of spices and yogurt and barbequed to perfection.",
+		"description": "Chicken leg quarter marinated in an exquisite blend of spices and yogurt and barbecued to perfection.",
 		"price": 6.99
 	},
 	{
 		"name": "Chicken Tikka (Breast)",
-		"description": "Succulent chicken breast marinated in an exquisite blend of spices and yogurt and barbequed to perfection.",
+		"description": "Succulent chicken breast marinated in an exquisite blend of spices and yogurt and barbecued to perfection.",
 		"price": 7.99
 	},
 	{
 		"name": "Hariyali Chicken Boti",
-		"description": "Succulent pieces of chicken breast marinated in a blend of cilantro, mint and other spices and barbequed to perfection.",
+		"description": "Succulent pieces of chicken breast marinated in a blend of cilantro, mint and other spices and barbecued to perfection.",
 		"price": 11.99
 	},
 	{
 		"name": "Malai Chicken Boti",
-		"description": "Succulent pieces of chicken breast marinated in mild spices and barbequed to perfection.",
+		"description": "Succulent pieces of chicken breast marinated in mild spices and barbecued to perfection.",
 		"price": 11.99
 	},
 	{
@@ -26,7 +26,7 @@ const kababsAndGrill = [
 	},
 	{
 		"name": "Masala Chicken Boti",
-		"description": "Succulent boneless chicken marinated in exquisite and tongue-searing spices and barbequed to perfection.",
+		"description": "Succulent boneless chicken marinated in exquisite and tongue-searing spices and barbecued to perfection.",
 		"price": 11.99,
 		"spicy": true
 	},
@@ -52,13 +52,13 @@ const kababsAndGrill = [
 	},
 	{
 		"name": "Tangri Kabab",
-		"description": "Chicken drumsticks marinated in an exquisite blend of tongue-searing spices and barbequed to perfection.",
+		"description": "Chicken drumsticks marinated in an exquisite blend of tongue-searing spices and barbecued to perfection.",
 		"price": 12.99,
 		"spicy": true
 	},
 	{
 		"name": "Bihari Kabab (Beef or Chicken)",
-		"description": "Beef/boneless chicken marinated in fresh herbs and roasted to perfection and then thinly sliced. ",
+		"description": "Beef/boneless chicken marinated in fresh herbs and roasted to perfection and then thinly sliced.",
 		"price": 11.99
 	},
 	{
@@ -78,7 +78,7 @@ const kababsAndGrill = [
 	},
 	{
 		"name": "Afghani Malai Chicken Boti",
-		"description": "Barbequed slices of chicken breast seasoned with mild spices and cooked in a thick gravy.",
+		"description": "Barbecued slices of chicken breast seasoned with mild spices and cooked in a thick gravy.",
 		"price": 12.99
 	},
 	{
@@ -103,17 +103,12 @@ const kababsAndGrill = [
 	},
 	{
 		"name": "Mixed Grill",
-		"description": "A combination of chicken seekh kabab, chicken boti, beef seekh kabab, and beef chapli",
+		"description": "A combination of chicken seekh kabab, chicken boti, beef seekh kabab, and beef chapli.",
 		"price": 24.99
 	},
 	{
 		"name": "Mixed Grill Family Platter",
-		"description": "A combination of chicken seekh kabab, chicken boti, chicken chapli, beef seekh kabab, beef Bihari kabab, and beef seekh kabab",
+		"description": "A combination of chicken seekh kabab, chicken boti, chicken chapli, beef seekh kabab, beef Bihari kabab, and beef seekh kabab.",
 		"price": 54.99
-	},
-	{
-		"name": "Jumbo Platter",
-		"description": "DESCIPTION HERE",
-		"price": 125.99
 	}
 ];

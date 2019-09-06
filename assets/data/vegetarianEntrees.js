@@ -48,17 +48,17 @@ const vegetarianEntrees = [
 	},
 	{
 		"name": "Palak Paneer",
-		"description": "Luscious cubes of paneer (Indian cottage cheese) marinated in spices and barbequed",
+		"description": "Luscious cubes of paneer (Indian cottage cheese) marinated in spices and barbequed.",
 		"price": 9.99
 	},
 	{
 		"name": "Matar Paneer",
-		"description":"Luscious cubes of paneer (Indian cottage cheese) marinated in spices and barbequed",
+		"description":"Luscious cubes of paneer (Indian cottage cheese) marinated in spices and barbequed.",
 		"price": 9.99
 	},
 	{
 		"name": "Navratan Korma",
-		"description":"DESCRIPTION HERE.",
+		"description":'The name of this dish means "Nine-gem Curry," which refers to the fruits, veggies, and nuts which make it up.',
 		"price": 9.99
 	},
 	{
@@ -68,12 +68,12 @@ const vegetarianEntrees = [
 	},
 	{
 		"name": "Paneer Tikka",
-		"description": "Luscious cubes of paneer (Indian cottage cheese) marinated in spices and barbequed",
+		"description": "Luscious cubes of paneer (Indian cottage cheese) marinated in spices and barbequed.",
 		"price": 9.99
 	},
 	{
 		"name": "Aloo Palak",
-		"description": "Luscious cubes of paneer (Indian cottage cheese) marinated in spices and barbequed",
+		"description": "A scrumptious dish made of spinach and potatoes.",
 		"price": 9.99
 	}
 ];

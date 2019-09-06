@@ -6,7 +6,7 @@ const beverages = [
 	},
 	{
 		"name": "Pakola",
-		"description": "Pakistan-Cola: Flavored soda from Pakistan",
+		"description": "Pakistan-Cola: Flavored soda from Pakistan.",
 		"price": 1.99
 	},
 	{
@@ -31,7 +31,7 @@ const beverages = [
 	},
 	{
 		"name": "Mango Lassi",
-		"description": "Decadent drink made from mango , sweet yogurt, milk and sugar.",
+		"description": "Decadent drink made from mango, sweet yogurt, milk and sugar.",
 		"price": 3.99
 	},
 	{

@@ -12,7 +12,7 @@ const entrees = [
 	},
 	{
 		"name": "Prawn 65",
-		"description": "Description Here",
+		"description": "Tender prawns sauteed in spicy red chillies and exquisite spices.",
 		"price": 14.99
 	},
 	{
@@ -21,9 +21,19 @@ const entrees = [
 		"price": 11.99
 	},
 	{
+		"name": "Shrimp Tikka Masala",
+		"description": "Tender, spice-marinated, tandoor-grilled shrimp simmered in a creamy sauce.",
+		"price": 14.99
+	},
+	{
 		"name": "Masala Shrimp",
 		"description": "Succulent shrimp cooked in a medium-spiced sauce of fresh tomatoes and spices.",
 		"price": 14.99
+	},
+	{
+		"name": "Masala Fish",
+		"description": "Fish cooked in a medium-spiced sauce of fresh tomatoes and spices.",
+		"price": 12.99
 	},
 	{
 		"name": "Nihari",
